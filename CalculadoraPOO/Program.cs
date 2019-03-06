@@ -15,13 +15,13 @@ namespace CalculadoraPOO
 
             if (opcion.Equals("1") || opcion.Equals("2") || opcion.Equals("3") || opcion.Equals("4"))
             {
-                Numero Numero = new Numero();//Intanciar la clase
+                Numero Numero = new Numero();
 
-                Console.Write("Ingrese valor 1: ");//Pedir numero 1
-                Numero.Numero1 = int.Parse(Console.ReadLine());//Leer numero ingresado
+                Console.Write("Ingrese valor 1: ");
+                Numero.Numero1 = int.Parse(Console.ReadLine());
 
-                Console.Write("Ingrese valor 2: ");//Pedir Numero 2
-                Numero.Numero2 = int.Parse(Console.ReadLine());//Leer numero ingresado
+                Console.Write("Ingrese valor 2: ");
+                Numero.Numero2 = int.Parse(Console.ReadLine());
 
                 if (opcion.Equals("1"))
                 {
